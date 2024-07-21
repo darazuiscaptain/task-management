@@ -1,0 +1,25 @@
+.foldable-banner {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1em;
+    margin: 1em;
+    background-color: #f2f2f2;
+}
+
+.foldable-banner label {
+    font-size: x-large;
+    padding: 0.6em;
+    padding-left: 1em;
+}
+
+.foldable-banner button {
+    background: transparent;
+    font-size: x-large;
+    padding: 0.6em;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.foldable-content{
+    margin: 1em;
+}

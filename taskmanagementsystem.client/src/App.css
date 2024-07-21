@@ -1,0 +1,30 @@
+﻿#root {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+tr:nth-child(even) {
+    background: #F2F2F2;
+}
+
+tr:nth-child(odd) {
+    background: #FFF;
+}
+
+th, td {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.dangerous-button{
+    border:1px solid indianred;
+    transition:background-color 0.5s;
+}
+
+.dangerous-button:hover{
+    background-color:#ee5555;
+}

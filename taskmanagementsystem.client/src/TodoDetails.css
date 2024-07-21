@@ -1,0 +1,32 @@
+#detail-panel {
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: left;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    width: calc(40% - 3px);
+    height: calc(75% - 3px);
+    z-index: 50;
+    background-color: mintcream;
+    overflow-y: auto;
+    display: flex;
+    border-style: outset;
+    border-top-left-radius: 1em;
+    border-top-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 0;
+    border-bottom-width: 0;
+}
+#detail-panel > button{
+    margin-left:auto;
+    margin-bottom:auto;
+    background-color:transparent;
+    z-index:2;
+}
+#detail-panel-inner {
+    max-width: 1280px;
+    padding: 2rem;
+    text-align: left;
+    position: absolute;
+}

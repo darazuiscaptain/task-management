@@ -1,0 +1,32 @@
+.sticky-column-table {
+    position:relative;
+    overflow-x: scroll;
+    margin-left: 0em;
+    overflow-y: visible;
+    padding-bottom: 1px;
+}
+
+.sticky-column-table tr th {
+    white-space:nowrap;
+}
+
+.sticky-column-table tr th:first-child {
+    position: sticky;
+    left: 0;
+    background-color: #fff;
+    white-space:nowrap;
+}
+
+.sticky-column-table tr td:first-child {
+    position: sticky;
+    left: 0;
+    white-space:nowrap;
+}
+
+.sticky-column-table tr:nth-child(even) td:first-child {
+    background-color: #f2f2f2;
+}
+
+.sticky-column-table tr:nth-child(odd) td:first-child {
+    background-color: #fff;
+}
